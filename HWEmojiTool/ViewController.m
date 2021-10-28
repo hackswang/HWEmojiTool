@@ -35,6 +35,7 @@
 
 - (void)_setup {
     [self setTitle:@"Emoji Tools"];
+    [self.view setBackgroundColor:UIColor.whiteColor];
 }
 
 - (void)_layout {

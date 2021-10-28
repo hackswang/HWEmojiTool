@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (Emoji)
 
+- (BOOL)containsEmoji;
+
 /*!
  *  \if ENGLISH
  *  \brief Determines whether the string is emoji
